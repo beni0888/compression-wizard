@@ -15,7 +15,7 @@
  * This software consists of voluntary contributions licensed under the MIT license.
  */
 
-namespace Beni0888\SfxWizard\Sfx;
+namespace Beni0888\CompressionWizard\Sfx;
 
 use Beni0888\SfxWizard\System\CommandRunner;
 use Psr\Log\LoggerInterface;

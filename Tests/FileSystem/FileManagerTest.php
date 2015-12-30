@@ -15,7 +15,7 @@
  * This software consists of voluntary contributions licensed under the MIT license.
  */
 
-namespace Beni0888\SfxWizard\Tests\FileSystem;
+namespace Beni0888\CompressionWizard\Tests\FileSystem;
 
 use Beni0888\SfxWizard\FileSystem\FileManager;
 use Beni0888\SfxWizard\FileSystem\FileType;

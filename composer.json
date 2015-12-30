@@ -14,7 +14,7 @@
   ],
   "autoload" : {
     "psr-4": {
-      "Beni0888\\SfxWizard\\": ["src"]
+      "Beni0888\\CompressionWizard\\": ["src"]
     }
   },
   "require-dev": {

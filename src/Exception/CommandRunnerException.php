@@ -15,7 +15,7 @@
  * This software consists of voluntary contributions licensed under the MIT license.
  */
 
-namespace Beni0888\SfxWizard\Exception;
+namespace Beni0888\CompressionWizard\Exception;
 
 
 class CommandRunnerException extends \Exception

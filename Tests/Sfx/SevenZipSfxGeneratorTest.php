@@ -15,7 +15,7 @@
  * This software consists of voluntary contributions licensed under the MIT license.
  */
 
-namespace Beni0888\SfxWizard\Tests\Sfx;
+namespace Beni0888\CompressionWizard\Tests\Sfx;
 
 use Mockery as m;
 
