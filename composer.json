@@ -1,0 +1,28 @@
+{
+  "name": "beni0888/compression-wizard",
+  "description": "A library to handle file compression tasks in php",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "https://github.com/beni0888/compression-wizard",
+  "keywords": ["compress", "compression", "decompress", "decompression", "zip", "unzip", "rar", "unrar", "sfx", "7z", "extraction"],
+  "authors": [
+    {
+      "name": "Jesús Miguel Benito Calzada",
+      "email": "beni0888@hotmail.com",
+      "homepage": "http://www.codekiri.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4": {
+      "Beni0888\\SfxWizard\\": ["src"]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "^0.9.4"
+  },
+  "require": {
+    "php": ">=5.3",
+    "psr/log": "^1.0"
+  }
+}
