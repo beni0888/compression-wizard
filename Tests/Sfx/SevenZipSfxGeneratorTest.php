@@ -25,7 +25,7 @@ class SevenZipSfxGeneratorTest extends \PHPUnit_Framework_TestCase {
 
     public function setUp()
     {
-        $this->sut = m::mock('Beni0888\SfxWizard\Sfx\SevenZipSfxGenerator')->makePartial();
+        $this->sut = m::mock('Beni0888\CompressionWizard\Sfx\SevenZipSfxGenerator')->makePartial();
     }
 
     public function testGet7zCommand()

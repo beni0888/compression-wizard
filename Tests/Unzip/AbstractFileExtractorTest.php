@@ -25,7 +25,7 @@ class AbstractFileExtractorTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->sut = \Mockery::mock('Beni0888\SfxWizard\Unzip\AbstractFileExtractor')->makePartial();
+        $this->sut = \Mockery::mock('Beni0888\CompressionWizard\Unzip\AbstractFileExtractor')->makePartial();
     }
 
     /**
