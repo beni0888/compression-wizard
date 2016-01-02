@@ -17,7 +17,7 @@
 
 namespace Beni0888\CompressionWizard\Tests\Sfx;
 
-use Beni0888\SfxWizard\Sfx\SfxConfiguration;
+use Beni0888\CompressionWizard\Sfx\SfxConfiguration;
 
 class SfxConfigurationTest extends \PHPUnit_Framework_TestCase
 {

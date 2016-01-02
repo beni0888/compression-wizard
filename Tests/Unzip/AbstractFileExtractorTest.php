@@ -18,7 +18,8 @@
 namespace Beni0888\CompressionWizard\Tests\Unzip;
 
 
-class AbstractFileExtractorTest extends \PHPUnit_Framework_TestCase {
+class AbstractFileExtractorTest extends \PHPUnit_Framework_TestCase
+{
 
     protected $sut;
 

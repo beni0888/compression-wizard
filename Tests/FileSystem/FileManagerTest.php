@@ -17,8 +17,8 @@
 
 namespace Beni0888\CompressionWizard\Tests\FileSystem;
 
-use Beni0888\SfxWizard\FileSystem\FileManager;
-use Beni0888\SfxWizard\FileSystem\FileType;
+use Beni0888\CompressionWizard\FileSystem\FileManager;
+use Beni0888\CompressionWizard\FileSystem\FileType;
 
 class FileManagerTest extends \PHPUnit_Framework_TestCase
 {

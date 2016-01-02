@@ -17,7 +17,6 @@
 
 namespace Beni0888\CompressionWizard\Unzip;
 
-
 use Psr\Log\LoggerInterface;
 
 class ZipFileExtractor extends AbstractFileExtractor

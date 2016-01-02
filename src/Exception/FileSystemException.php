@@ -15,23 +15,10 @@
  * This software consists of voluntary contributions licensed under the MIT license.
  */
 
-namespace Beni0888\CompressionWizard\Tests\Unzip;
+namespace Beni0888\CompressionWizard\Exception;
 
-use Beni0888\CompressionWizard\Unzip\RarFileExtractor;
 
-class RarFileExtractorTest extends \PHPUnit_Framework_TestCase
+class FileSystemException extends \Exception
 {
 
-    protected $sut;
-
-    public function setUp()
-    {
-        $this->sut = new RarFileExtractor();
-    }
-
-    public function testGetExtractionCommand()
-    {
-        $this->assertEquals('/usr/bin/unrar x -y foo.rar /tmp/foo/', $this->sut->getExtractionCommand('foo.rar', '/tmp/foo'));
-        $this->assertEquals('/usr/bin/unrar x -y foo.rar /tmp/foo/', $this->sut->getExtractionCommand('foo.rar', '/tmp/foo/'));
-    }
 }

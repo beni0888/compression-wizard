@@ -17,7 +17,13 @@
 
 namespace Beni0888\CompressionWizard\Autorun;
 
-use Beni0888\SfxWizard\FileSystem\FileSystem;
+use Beni0888\CompressionWizard\FileSystem\FileManager;
+use Beni0888\CompressionWizard\FileSystem\FileSystem;
+use Beni0888\CompressionWizard\FileSystem\FileType;
+use Beni0888\CompressionWizard\Sfx\SevenZipSfxGenerator;
+use Beni0888\CompressionWizard\Sfx\SfxConfiguration;
+use Beni0888\CompressionWizard\Unzip\RarFileExtractor;
+use Beni0888\CompressionWizard\Unzip\ZipFileExtractor;
 
 class ExeFileGenerator
 {
@@ -27,12 +33,12 @@ class ExeFileGenerator
     protected $fileSystem;
 
     /**
-     * @param SevenZip $sevenZip
+     * @param SevenZipSfxGenerator $sevenZip
      * @param RarFileExtractor $rarExtractor
      * @param ZipFileExtractor $zipExtractor
      */
     public function __construct(
-        SevenZip $sevenZip,
+        SevenZipSfxGenerator $sevenZip,
         RarFileExtractor $rarExtractor,
         ZipFileExtractor $zipExtractor
     ) {
@@ -134,7 +140,6 @@ class ExeFileGenerator
      */
     public function setFinishMessageForNonRunnableFiles(SfxConfiguration &$configuration)
     {
-        $configuration->setFinishMessage('Los archivos se descomprimieron correctamente en el directorio que usted seleccionó.' . PHP_EOL
-            .'Abra dicha carpeta para tener acceso a sus archivos.');
+        $configuration->setFinishMessage('Files have been successfully extracted in the path that you selected.');
     }
 }

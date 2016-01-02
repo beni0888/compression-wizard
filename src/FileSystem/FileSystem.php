@@ -17,8 +17,7 @@
 
 namespace Beni0888\CompressionWizard\FileSystem;
 
-
-use Beni0888\SfxWizard\Exception\FileSystemException;
+use Beni0888\CompressionWizard\Exception\FileSystemException;
 
 class FileSystem
 {

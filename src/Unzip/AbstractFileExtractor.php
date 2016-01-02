@@ -18,7 +18,7 @@
 namespace Beni0888\CompressionWizard\Unzip;
 
 
-use Beni0888\SfxWizard\System\CommandRunner;
+use Beni0888\CompressionWizard\System\CommandRunner;
 use Psr\Log\LoggerInterface;
 
 abstract class AbstractFileExtractor

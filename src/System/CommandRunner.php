@@ -17,7 +17,7 @@
 
 namespace Beni0888\CompressionWizard\System;
 
-use Beni0888\SfxWizard\Exception\CommandRunnerException;
+use Beni0888\CompressionWizard\Exception\CommandRunnerException;
 use Psr\Log\LoggerInterface;
 
 class CommandRunner
@@ -78,9 +78,9 @@ class CommandRunner
             }
         } catch (\Exception $ex) {
             throw $ex;
-        } finally {
-            $this->logCommandExecution();
         }
+
+        $this->logCommandExecution();
     }
 
     /**

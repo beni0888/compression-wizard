@@ -17,7 +17,7 @@
 
 namespace Beni0888\CompressionWizard\Sfx;
 
-use Beni0888\SfxWizard\System\CommandRunner;
+use Beni0888\CompressionWizard\System\CommandRunner;
 use Psr\Log\LoggerInterface;
 
 class SevenZipSfxGenerator

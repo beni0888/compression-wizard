@@ -17,8 +17,7 @@
 
 namespace Beni0888\CompressionWizard\Tests\Unzip;
 
-
-use Beni0888\SfxWizard\Unzip\ZipFileExtractor;
+use Beni0888\CompressionWizard\Unzip\ZipFileExtractor;
 
 class ZipFileExtractorTest extends \PHPUnit_Framework_TestCase {
 
