@@ -260,14 +260,14 @@ OverwriteMode="{$this->overwriteMode}"
 
 CONFIGURATION;
 
-        if ($this->runProgram != null) {
+        if ($this->runProgram !== null) {
             $configuration .= <<<RUNPROGRAM
 RunProgram="nowait:\\"{$this->runProgram}\\""
 
 RUNPROGRAM;
         }
 
-        if ($this->finishMessage != null) {
+        if ($this->finishMessage !== null) {
             $configuration .= <<<FINISH_MESSAGE
 FinishMessage="{$this->finishMessage}"
 
